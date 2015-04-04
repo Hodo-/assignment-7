@@ -1,1 +1,141 @@
-# assignment-7
+html {
+	background-color: white;
+	box-sizing: border-box;
+}
+
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+
+body {
+line-height: 115%;
+margin: 0;
+}
+
+header {
+	padding: 0;
+	text-align: center;
+	margin: 0;
+}
+
+.beetle-left {
+	width: 10%;
+	float: left;
+	padding: 0.5em 0em 0em 0em;
+}
+
+.beetle-right {
+	width: 10%;
+	float: right;
+	padding: 0.5em 0em 0em 0em;
+}
+
+h1 {
+	padding: 0.5em 0.5em 0.5em 0.5em;
+	margin: 0;
+	text-align: center;
+	color: #512200;
+	font-weight: normal;
+	font-size: 3rem;
+	font-family: 'Dosis', sans-serif;
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	color: white;
+	overflow: hidden;
+}
+
+nav li {
+	display: block;
+	float: left;
+	width: 25%;
+	background-color: #a08874;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+	margin: 0;
+}
+
+nav a {
+	display: block;
+	padding: 0.5em 0.5em 0.5em 0.5em;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+	margin: 0;
+}
+
+nav a:hover {
+	display: block;
+	background-color: #785439;
+	color: white;
+}
+
+.first-img {
+	clear: both;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+
+.p1 {
+}
+
+figure {
+	margin: 0;
+	padding: 0;
+}
+
+figcaption {
+	text-align: center;
+	color: white;
+	border-radius: 2px;
+	background-color: #509d00;
+	padding: 0.2em 0em 0.5em 0em;
+	margin: 0;
+}
+
+a:hover {
+	display: block;
+	background-color: #2e6a00;
+	color: white;
+}
+
+.small-img {
+	display: block;
+	width: 100%;
+	margin: 0;
+}
+
+.left-img {
+	float: left;
+	font-size: 0.7rem;
+	font-style: italic;
+	color: white;
+	background-color: #dc8252;
+	padding: 0;
+	width: 50%;
+	margin: 0;
+}
+
+.right-img {
+	float: right;
+	font-size: 0.7rem;
+	font-style: italic;
+	color: white;
+	background-color: #dc8252;
+	padding: 0;
+	width: 50%;
+	margin: 0;
+}
+
+footer {
+	clear: both;
+	background-color: #9a816d;
+	padding: 0.2em 0.5em 0.5em 0.5em;
+	margin: 0;
+	line-height: 1;
+}
