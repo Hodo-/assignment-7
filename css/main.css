@@ -18,6 +18,14 @@ header {
 	margin: 0;
 }
 
+.waves {
+	padding: 0;
+	margin: 0;
+	background-image: url("../images/waves.png");
+	background-size: 100px auto;
+	background-repeat: repeat;
+}
+
 .beetle-left {
 	width: 10%;
 	float: left;
@@ -38,6 +46,7 @@ h1 {
 	font-weight: normal;
 	font-size: 3rem;
 	font-family: 'Dosis', sans-serif;
+}
 
 nav ul {
 	list-style-type: none;
@@ -73,7 +82,7 @@ nav a:hover {
 	color: white;
 }
 
-.first-img {
+.sand {
 	clear: both;
 	display: block;
 	margin-left: auto;
